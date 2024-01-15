@@ -1,0 +1,21 @@
+.dropdown:hover>.dropdown-menu {
+    display: block!important;
+}
+
+.dropdown>.dropdown-toggle:active {
+/*Without this, clicking will make it sticky*/
+    pointer-events: none!important;
+}
+.login-layout{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:80vh;
+}
+.users-activity-layout{
+    height:80vh;
+}
+.login-form{
+    width: 600px;
+    background-color: #4d6fd1;
+}
