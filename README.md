@@ -3,12 +3,21 @@
 Simple login functionality with user dashboard in Laravel Framework
 
 # Prerequisite
-As side from Laravel >= 10.40.0 and PHP >= 8.2.14, there are no packages that are required.
+Laravel >= 10.40.0, PHP >= 8.2.14, NPM >= 10.4.2
 
 # Run the project
-After download the project, use terminal to navigate in to project's folder and serve with php artisan
+<ul>
+    <li>Download project</li>
+    <li>Duplicate the .env.example to .env</li>
+    <li>Use terminal to navigate to projects folder and run the following commands</li>
+</ul>
 
 ```bash
+$ composer install
+$ php artisan key:generate
+$ php artisan cache:clear
+$ npm install
+$ npm run build
 $ php artisan serve
 ```
 # Project's Pages
