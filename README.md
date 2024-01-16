@@ -21,7 +21,7 @@ $ npm run build
 $ php artisan serve
 ```
 # Project's Pages
-The project consists of two pages, the login page and the dashboard page. In dashboard page, a selected .csv file is displayed in table layout
+The project consists of two pages, the login page and the dashboard page. In dashboard page, created by diannoia and Memor-i are displayed in table layout. The source of data is a .csv file.
 
 <b>Login Page</b>
 
