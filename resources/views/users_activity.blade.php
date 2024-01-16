@@ -34,7 +34,7 @@
                         @endif    
                         <tr>
                             <td>{{ $row[0] ? $row[0] : '-' }}</td>
-                            <td>{{ $row[1] ? $row[1] : '-' }}</td>
+                            <td>{{ $row[1] }}</td>
                             <td>{{ $row[2] ? $row[2] : '-' }}</td>
                             <td>{{ $row[3] ? $row[3] : '-' }}</td>
                             <td>{{ $row[4] ? $row[4] : '-' }}</td>
