@@ -29,6 +29,9 @@
                 @endphp
                 <tbody>
                     @foreach( $data as $row )
+                        @if ($row[1] != 'Memor-i' && $row[1] != 'dianoia'  )
+                            @continue
+                        @endif    
                         <tr>
                             <td>{{ $row[0] ? $row[0] : '-' }}</td>
                             <td>{{ $row[1] ? $row[1] : '-' }}</td>
