@@ -33,7 +33,7 @@ The login page accepts only one username which is "Antigoni". Providing the righ
 ![Screenshot from 2024-01-16 20-08-01](https://github.com/vagg-peer/scify-exercise/assets/58305936/6a8d50a3-6714-4117-b9d2-f5469f83e6c3)
 
 
-# Improvments
+# Improvements
 <ul>
     <li>Use Laravel's built in authentication system. This means that, the user need username and password to login. Furthermore user's credentials will be saved in the database with other information like IP, which improves security. </li>
     <li>Check if the file's type is .csv, because fgetcsv() parse pdfs without errors.</li>
