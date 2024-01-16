@@ -3,13 +3,13 @@
 Simple login functionality with user dashboard in Laravel Framework
 
 # Prerequisite
-Laravel >= 10.40.0, PHP >= 8.2.14, NPM >= 10.4.2
+Laravel >= 10.40.0, PHP >= 8.2.14,Node.js >= 20.11.0 NPM >= 10.4.2
 
 # Run the project
 <ul>
     <li>Download project</li>
     <li>Duplicate the .env.example to .env</li>
-    <li>Use terminal to navigate to projects folder and run the following commands</li>
+    <li>Use terminal to navigate to project's folder and run the following commands</li>
 </ul>
 
 ```bash
@@ -31,5 +31,13 @@ The login page accepts only one username which is "Antigoni". Providing the righ
 
 <b>User's Activity Page</b>
 ![Screenshot from 2024-01-15 15-23-57](https://github.com/vagg-peer/scify-exercise/assets/58305936/19ea70de-39ae-47f3-a649-59774a8c8781)
+
+# Improvments
+<ul>
+    <li>Use Laravel's built in authentication system. This means that, the user need username and password to login. Furthermore user's credential will be saved in the database with other information like IP, which improves security. </li>
+    <li>Check if the file's type is .csv, because fgetcsv() parse pdfs without errors.</li>
+    <li>Use cache for faster page loading</li>
+    <li>Check if applications is created by Memor-i or diannoia, because the database may contain applications from other creators</li>
+</ul>
 
 
