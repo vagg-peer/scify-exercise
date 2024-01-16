@@ -30,14 +30,14 @@ The project consists of two pages, the login page and the dashboard page. In das
 The login page accepts only one username which is "Antigoni". Providing the right username, user will be redirected in User's Activity page. If there is no issues with the file the user should see the following screen. In case of error the user will see error messages
 
 <b>User's Activity Page</b>
-![Screenshot from 2024-01-15 15-23-57](https://github.com/vagg-peer/scify-exercise/assets/58305936/19ea70de-39ae-47f3-a649-59774a8c8781)
+![Screenshot from 2024-01-16 20-08-01](https://github.com/vagg-peer/scify-exercise/assets/58305936/6a8d50a3-6714-4117-b9d2-f5469f83e6c3)
+
 
 # Improvments
 <ul>
-    <li>Use Laravel's built in authentication system. This means that, the user need username and password to login. Furthermore user's credential will be saved in the database with other information like IP, which improves security. </li>
+    <li>Use Laravel's built in authentication system. This means that, the user need username and password to login. Furthermore user's credentials will be saved in the database with other information like IP, which improves security. </li>
     <li>Check if the file's type is .csv, because fgetcsv() parse pdfs without errors.</li>
     <li>Use cache for faster page loading</li>
-    <li>Check if applications is created by Memor-i or diannoia, because the database may contain applications from other creators</li>
 </ul>
 
 
